@@ -1,0 +1,19 @@
+#div1 {
+  margin-right: 150px;
+  border: 1px solid red;
+}
+
+#div2 {
+  margin-top: 100px;
+  border: 1px solid blue;
+}
+
+#div3 {
+  margin-bottom: 100px;
+  border: 1px solid green;
+}
+
+#div4 {
+  margin-left: 80px;
+  border: 1px solid black;
+}

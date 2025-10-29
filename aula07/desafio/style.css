@@ -1,0 +1,13 @@
+#maca1 {
+  float: right;
+  margin-left: 15px;
+  width: 200px;
+  height: 200px;  
+}
+
+#maca2 {
+  float: left;
+  margin-left: 15px;
+  width: 200px;
+  height: 200px;  
+}

@@ -1,0 +1,29 @@
+.dotted {
+    border-style: dotted;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.double {
+    border-style: double;
+}
+
+.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.round2 {
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.round3 {
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px;
+}
