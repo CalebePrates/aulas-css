@@ -1,0 +1,15 @@
+#elemento-maior {
+    width: 500px;
+    height: 300px;
+    background-color: blueviolet;
+    margin: auto;
+    text-align: center;
+}
+
+#elemento-menor {
+    width: 200px;
+    height: 150px;
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+}

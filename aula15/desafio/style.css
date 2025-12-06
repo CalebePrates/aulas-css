@@ -1,0 +1,9 @@
+p::first-line {
+  color: red;
+  font-variant: small-caps;
+  font-size: 19px;  
+}
+
+h3::before {
+  content: url('./imagem.jpg');
+}
