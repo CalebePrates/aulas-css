@@ -1,0 +1,30 @@
+#caixa-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+#linha1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#linha2 {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+#linha3 {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    padding: 20px;
+}
