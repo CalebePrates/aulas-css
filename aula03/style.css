@@ -1,0 +1,27 @@
+@font-face {
+    src: url('fonts/Young_Serif/YoungSerif-Regular.ttf');
+    font-family: 'Young Serif';
+}
+
+@font-face {
+    src: url('fonts/Roboto/Roboto.ttf');
+    font-family: 'Young Serif';
+}
+
+h1 {
+    font-family: 'Roboto', 'Arial';
+    font-size: 20pt;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+p {
+    font-family: 'Young Serif';
+    font-style: italic;
+    text-align: justify;
+}

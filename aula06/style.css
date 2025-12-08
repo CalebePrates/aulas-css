@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+}
+
+.caixa {
+    background-color: rgb(189, 189, 189);
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+#caixa1 {
+    margin-right: auto;
+    background-color: blue;
+}
+
+#caixa2 {
+    margin-left: auto;
+    background-color: red;
+}
