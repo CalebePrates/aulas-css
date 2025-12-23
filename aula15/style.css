@@ -1,0 +1,29 @@
+h1::first-letter {
+    font-size: 40pt;
+    font-style: italic;
+}
+
+p::first-line {
+    color: blue;
+}
+
+p::selection {
+    background-color: gray;
+    color: black;
+}
+
+h3::before {
+    content: "✔";
+}
+
+li#carne::after {
+    content: "🥩";
+}
+
+li#leite::after {
+    content: "🐮";
+}
+
+li#ovos::after {
+    content: "🐔";
+}

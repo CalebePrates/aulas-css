@@ -1,6 +1,12 @@
-#overflow-content {
+div {
+    background: red;
+    display: inline-block;
     width: 200px;
-    height: 100px;
-    border: 1px solid black;
-    overflow: auto;
+    height: 200px;
+}
+span {
+    background: blue;
+    display: inline;
+    width: 200px;
+    height: 200px;
 }

@@ -1,14 +1,16 @@
-#container {
-    background-color: gray;
-    height: 100vh;
-}
-.box {
+#box1 {
+    height: 200px;
+    width: 200px;
     background-color: blueviolet;
-    border: 2px solid black;
-    padding: 25px;
-    height: 50%;
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
-    max-height: 75%;
+    position: sticky;
+    top: 0;
+}
+
+#box2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(51, 246, 139);
+    position: static;
+    top: 50px;
+    left: 50px;
 }

@@ -1,54 +1,15 @@
-.button {
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid black;
-    padding: 16px 32px;
-    border-radius: 5px;
+#caixa {
+    border: 1px solid black;
+    padding: 10px;
+    display: flow-root;
 }
 
-#botao1 {
-    border: 2px solid rgb(9, 168, 9);
+#imagem1 {
+    margin: 10px;
+    float: right;
 }
 
-#botao1:hover {
-    background-color: rgb(9, 168, 9);
-    color: white;
-    transition: 0.5s;
-}
-
-#botao2 {
-    border: 2px solid rgb(243, 107, 107);
-}
-
-#botao2:hover {
-    background-color: rgb(243, 107, 107);
-    color: white;
-    transition: 0.5s;
-}
-
-#botao3 {
-    border: 2px solid rgb(107, 191, 243);
-}
-
-#botao3:hover {
-    background-color: rgb(107, 191, 243);
-    color: white;
-    transition: 0.5s;
-}
-
-#botao4 {
-    border: 2px solid rgb(250, 166, 50);
-}
-
-#botao4:hover {
-    background-color: rgb(250, 166, 50);
-    color: white;
-    transition: 0.5s;
-}
-
-#botao5 {
-    cursor: wait;
-    border: 2px solid gray;
-    background-color: rgb(172, 172, 172);
-    color: white;
+#imagem2 {
+    margin: 10px;
+    float: left;
 }

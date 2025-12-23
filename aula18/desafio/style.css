@@ -1,14 +1,32 @@
-div {
-  width: 150px;
-  height: 150px;
-  background-color: yellow;
-  border: 1px solid black;
+#caixa-principal {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
 }
 
-#div-transform {
-  transform: rotate(20deg);
+#linha1 {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
 }
 
-#content {
-    margin: 100px;
+#linha2 {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 5px;
+}
+
+#linha3 {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 5px;
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    padding: 20px;
 }

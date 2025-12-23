@@ -1,12 +1,14 @@
-div {
-    background: red;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
+#container {
+    background-color: gray;
+    height: 100vh;
 }
-span {
-    background: blue;
-    display: inline;
-    width: 200px;
-    height: 200px;
+.box {
+    background-color: blueviolet;
+    border: 2px solid black;
+    padding: 25px;
+    height: 50%;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    max-height: 75%;
 }

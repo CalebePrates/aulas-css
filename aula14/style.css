@@ -1,0 +1,7 @@
+button {
+    display: none;
+}
+
+div:active button {
+    display: block;
+}
