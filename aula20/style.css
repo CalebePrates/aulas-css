@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+
+div {
+    background-color: blueviolet;
+    color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    animation-name: moverParaDireita;
+    animation-duration: 2s;
+}
+
+
+@keyframes moverParaDireita {
+    to {transform: translateX(300%)}
+}
+
+@keyframes moverParaEsquerda {
+    to {transform: translateX(-300%)}
+}
+
+@keyframes moverParaBaixo {
+    to {transform: translateY(300%)}
+}
+
+@keyframes moverParaCima {
+    to {transform: translateY(-300px)}
+}
+
+@keyframes Pisca {
+    25% {background-color: blue;}
+    50% {background-color: red;}
+    75% {background-color: green;}
+    100% {background-color: yellow;}
+}
+
+@keyframes moverParaDireitaSuave {
+    25% {transform: translateX(300%)}
+}
+
+@keyframes moverParaDireitaRodando {
+    50% {
+        transform: translateX(300%) rotate(360deg);
+    }
+}

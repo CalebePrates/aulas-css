@@ -1,0 +1,29 @@
+#container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    height: 100vh;
+}
+
+.box {
+    background-color:blueviolet;
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+
+.box:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.box:nth-child(2) {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.box:nth-child(3) {
+    grid-area: 2 / 2 / 4 / 4;
+}
